@@ -17,7 +17,7 @@ const Todo = ({ todo, toggleComplete, removeTodo }) => {
       variant='body1'
         style={{
         //   color: "white",
-          textDecoration: todo.completed ? "Typographyne-through" : null,
+          textDecoration: todo.completed ? "line-through" : null,
         }}
       >
         {todo.task}
